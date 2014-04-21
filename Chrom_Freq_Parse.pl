@@ -1,14 +1,7 @@
 #!usr/bin/perl -w
 use strict;
 
-my $dbhost = "fortuna";
-my $dbname = "bcvija01";
-my $dbsource = "dbi:mysql:database=$dbname;host=$dbhost";
-my $username = "bcvija01";
-my $password = "";
-	
-use DBI;
-my $dbh = DBI->connect($dbsource, $username, $password);
+
 
 undef $/; 
 
